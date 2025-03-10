@@ -16,7 +16,7 @@ data_base()
 print('Бот работает')
 
 state_storage = StateMemoryStorage()
-token_bot = '8161554872:AAGRBCgd_AjdtNSqvE5DmLsM0QyaJZtvR7M'
+
 bot = TeleBot(token_bot, state_storage=state_storage)
 
 user_check(user_id=bot.get_me().id, username=bot.get_me().username)
