@@ -12,6 +12,7 @@ from db_telebot import (
 get_db_connection()
 
 data_base()
+token_bot = ''
 
 print('Бот работает')
 
